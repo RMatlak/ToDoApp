@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.tasks {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 2px solid #aaa;
+}
+h1 {
+  margin-top: 20px;
+}
+.done {
+  text-align: center;
+  margin-top: 50px;
+  border-top: 2px solid #aaa;
+}
+h2 {
+  margin-top: 20px;
+}
+
+.add {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 15px;
+  margin-top: 7px;
+}
+p {
+  padding: 15px;
+}
+.btn,
+.taskdone {
+  margin-left: 5px;
+}
+.lastfive {
+  font-size: 10px;
+}
