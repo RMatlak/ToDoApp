@@ -36,9 +36,9 @@ class App extends Component {
     if (date === "") return alert("Musisz wybrać date!");
     const task = {
       id: this.counter,
-      text: text, //tekst z inputa
-      date: date, //data z inputa
-      important: isChecked, //wartośc z inputa
+      text: text, 
+      date: date, 
+      important: isChecked, 
       active: true,
       finishDate: null
     };
